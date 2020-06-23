@@ -27,11 +27,11 @@
     <!-- <h1><a href="http://suzai.ru/syuczaj-chislovaya-nauka/" target="_blank">Сюцай. PRO</a></h1> -->
     <div>
       <!-- <div class="text-center" style="font-size: 48px;">Сюцай</div> -->
-      <div>
+      <div class="shadow-sm rounded-lg p-5">
         <!-- <span><i>Считает только на английском</i></span> -->
-        <input type="number"  style="font-size: 48px;" placeholder="Магия Цифры ..." v-model="textCalc"
-          class="form-control custom-control mb-4 mt-5  text-center">
-        <div class=" text-center"  style="font-size: 64px;">
+        <input type="text"  style="font-size: 36px;" placeholder="Магия Цифры ..." v-model="textCalc"
+          class="shadow rounded-lg form-control custom-control mb-4  text-center">
+        <div class=" text-center shadow-lg rounded-lg alert alert-success"  style="font-size: 64px;">
           <strong>{{textCalcResult}}</strong>
           <!-- <ul class="list-group mt-4">
             <li class="list-group-item" :class="{active: textCalcResult==1}">1 Популярность</li>
